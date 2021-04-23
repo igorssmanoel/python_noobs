@@ -20,4 +20,4 @@ git push
 
 ```
 
-<img src="https://media.tenor.com/images/8898731c35c86702304f35609510c06a/tenor.gif"> </img>
+<img width="100%" src="https://media.tenor.com/images/8898731c35c86702304f35609510c06a/tenor.gif"> </img>
