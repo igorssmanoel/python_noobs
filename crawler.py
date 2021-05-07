@@ -3,8 +3,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 from time import sleep
 
 
-email = "igorsergioigorcisco@gmail.com"
-senha = "igor80250090"
+email = ""
+senha = ""
 
 browser = webdriver.Chrome(ChromeDriverManager().install())
 browser.get("https://twitter.com/login")
