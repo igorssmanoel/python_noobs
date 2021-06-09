@@ -11,7 +11,12 @@ def fibonnacci(anterior, atual, qtd_max, lista_valores=[0, 1]):
 def imprime_fibonnaci(lista):
     #print(" ".join(map(str,lista)))
     print(*lista)
-    
+
 
 qtd_max = int(input())
 imprime_fibonnaci(fibonnacci(0, 1, qtd_max))
+
+
+
+
+
