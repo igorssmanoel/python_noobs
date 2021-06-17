@@ -3,13 +3,16 @@
 class Encap:
     def __init__(self):
         self.__attr_encapsulado = "Nao visivel"
+        self.__valor_qualquer = 2
 
-
+    """
+        @description Getter
+    """
     @property
     def attr_encapsulado(self):
         print("chamou o getter")
-        return self.__attr_encapsulado+"teste2"
-    
+        return self.__attr_encapsulado + "teste2"
+
     @attr_encapsulado.setter
     def attr_encapsulado(self, value):
         if value > 3:
@@ -17,8 +20,9 @@ class Encap:
         else:
             self.__attr_encapsulado = "teste3"
 
-    
+
 encap = Encap()
+
 print(encap.attr_encapsulado)
 encap.attr_encapsulado = 5
-print(encap.attr_encapsulado)[]
+print(encap.attr_encapsulado)

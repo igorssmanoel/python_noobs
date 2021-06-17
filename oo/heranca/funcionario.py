@@ -1,8 +1,9 @@
 class Funcionario:
-    def __init__(self, nome, cpf, salario):
+    def __init__(self, nome, cpf, salario, vt=4.50):
         self.__nome = nome
         self.__cpf = cpf
         self.__salario = salario
+        self.__vt = vt
 
     @property
     def nome(self):
@@ -29,4 +30,12 @@ class Funcionario:
         self.__salario = value
 
     def get_bonificacao(self):
-        return self._salario * 0.10
+        return self.__salario * 0.10
+
+    @property
+    def vt(self):
+        return self.__vt
+
+    @vt.setter
+    def vt(self, value):
+        self.__vt = value

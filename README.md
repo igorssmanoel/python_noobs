@@ -21,3 +21,11 @@ git push
 ```
 
 <img width="100%" src="https://media.tenor.com/images/8898731c35c86702304f35609510c06a/tenor.gif"> </img>
+
+
+
+
+https://www.urionlinejudge.com.br/judge/pt/problems/view/1068 Balanço de Parênteses I
+ 
+https://www.urionlinejudge.com.br/judge/pt/problems/view/1215 Primeiro Dicionário de Andy
+
