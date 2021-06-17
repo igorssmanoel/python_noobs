@@ -1,12 +1,12 @@
-from gerente import Gerente
+from diretor import Diretor
 from carro import Carro
 
 
-car = Carro("Fusca", "volkswagen", "azul", 1968)
+#car = Carro("Fusca", "volkswagen", "azul", 1968)
 
-gerente = Gerente("igor", "09443298961", 2000.00, car)
+diretor = Diretor("Luigi", "12464779989", 2000.00)
 
 """ print(gerente.get_bonificacao())
 print(gerente.get_salario()) """
 
-print(gerente)
+print(diretor)
